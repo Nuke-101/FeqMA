@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="black_overlay" onclick="hideSidebar()" id="overlay_black"></div>
+    <div class="sidebar">
+        <button class="close_side" onclick="hideSidebar()">&#10006</button>
+        <ul class="nav_links">
+            <a class="nav_linksb" href="#serviceid" onclick="hideSidebar()">Services</a>
+            <a class="nav_linksb" href="#aboutid" onclick="hideSidebar()">About</a>
+            <a class="nav_linksb" href="#caseid" onclick="hideSidebar()">Case study</a>
+            <a class="nav_linksb" href="#contactid" onclick="hideSidebar()">Contact</a>
+        </ul>
+    </div>
+    <section class="main">
+        <div class="navigation bg-transparent">
+            <div class="logo">
+                FEQMA
+            </div>
+            <ul class="nav_links">
+                <a class="nav_link" href="#serviceid">Services</a>
+                <a class="nav_link" href="#aboutid">About</a>
+                <a class="nav_link" href="#caseid">Case study</a>
+                <a class="nav_link" href="#contactid">Contact</a>
+                <a class="nav_linkh sidebar_switch" id="switch" onclick="showSidebar()"><i class="fa fa-bars"></i></a>
+            </ul>
+        </div>
+        <div class="video_container">
+            <video class="promo_video" autoplay muted loop>
+                <source src="videos/promo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+           
+        </div>
+        <div class="center_container">
+            <div class="overlay"></div>
+            <div class="title">
+                <h3 class="header_text">We are a <span class="blue_text">multi-disciplinary,</span> <br>independently-owned
+                    design studio.</h3>
+                <a class="view_work">VIEW ALL WORKS</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="specialize">
+        <div class="carousel_row">
+            <div class="creation">
+               
+                <div class="creation_stat">
+                    <div class="vertical">
+                        <h3 class="creation_header">WE SPECIALIZE IN</h3>
+                        <ul class="creation_cats">
+                            <li class="creation_cat carousel_indicator current_slide">Digital & Innovation Strategy.</li>
+                            <li class="creation_cat carousel_indicator">Experience Design.</li>
+                            <li class="creation_cat carousel_indicator">Engineering: Software, Hardware.</li>
+                            <li class="creation_cat carousel_indicator">Program Management & Delivery</li>
+                            <li class="creation_cat carousel_indicator">Quality Experience.</li>
+                        </ul>
+                    </div>
+                    <div class="horizontal_container">
+                        <div class="horizontal">
+                            <div class="cat_info current_slide">
+                               <img src="/images/services.png" alt="" class="cat_img">
+                            </div>
+                           
+                            <div class="cat_info">
+                                <img src="/images/services.png" alt=""  class="cat_img">
+                            </div>
+                            <div class="cat_info">
+                                <img src="/images/services.png" alt=""  class="cat_img">
+                            </div>
+                            <div class="cat_info">
+                                <img src="/images/services.png" alt=""  class="cat_img">
+                            </div>
+                            <div class="cat_info">
+                                <img src="/images/services.png" alt=""  class="cat_img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="we_guide">
+        <h3 class="guide_header">We guide game-changing companies, across platforms, by creating world-class <span class="blue_text"> digital products, web design, and mobile apps.</span></h3>
+        <div class="guide_row">
+            <div class="guide_column col-1">
+                <div class="guide_project">
+                    <img src="images/work/project3.png" alt="" class="project_img">
+                    <h4 class="project_title">Mopar- Vehicle owners personalised experience</h4>
+                    <p class="project_info">Cross-Channel program</p>
+                </div>
+                <div class="guide_project">
+                <img src="images/work/project2.png" alt="" class="project_img">
+                <h4 class="project_title">Daimler Trucks - Immersive safety showcase</h4>
+                <p class="project_info">AR/VR Experience</p>
+                </div>
+            </div>
+            <div class="guide_column">
+                <div class="guide_project">
+                    <img src="images/work/project1.png" alt="" class="project_img">
+                    <h4 class="project_title">Jeep - Off road social platform</h4>
+                    <p class="project_info">IOS, Android & Web experience</p>
+                </div>
+                <div class="guide_project">
+                    <img src="images/work/project4.png" alt="" class="project_img">
+                    <h4 class="project_title">Adrian Steel - Modernising commercial upfitting sales</h4>
+                    <p class="project_info">Web & Tablet experience, 3D rendering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="collaborate">
+    <p class="tagline">We collaborate with ambitious brands & people.</p>
+    <h3 class="tag_head">Let's create some frequency --</h3>
+</section>
+
+<section class="clients">
+    <h3 class="client_header">
+        We help close the Innovation <br>Execution Gap
+    </h3>
+    <div class="client_row">
+        <div class="client"><img src="/images/clients/client-logo1.png" alt="" class="client_img"></div>
+        <div class="client"><img src="/images/clients/client-logo2.png" alt="" class="client_img"></div>
+        <div class="client"><img src="/images/clients/client-logo3.png" alt="" class="client_img"></div>
+        <div class="client"><img src="/images/clients/client-logo4.png" alt="" class="client_img"></div>
+        <div class="client"><img src="/images/clients/client-logo5.png" alt="" class="client_img"></div>
+        <div class="client"><img src="/images/clients/client-logo6.png" alt="" class="client_img"></div>
+        
+
+    </div>
+</section>
+
+<section class="footer">
+    <div class="rights_reserved">
+        <p class="copyright">&copy;2021 FeqMA, Pvt Ltd.All Rights Reserved.</p>
+    </div>
+    <div class="logo">
+        <img src="/images/logo.png" alt="" class="logo_img">
+    </div>
+
+    <div class="social"></div>
+
+</section>
+
+    <script>
+        // var sidebarSwitch = document.getElementById("switch");
+        var sidebar = document.getElementsByClassName("sidebar")[0];
+        var overlay = document.getElementById("overlay_black");
+
+        function showSidebar() {
+            sidebar.style.right = "0";
+            overlay.style.opacity = "1";
+            overlay.style.pointerEvents = "all";
+        }
+
+        function hideSidebar() {
+            sidebar.style.right = "-100%";
+            overlay.style.opacity = "0";
+            overlay.style.pointerEvents = "none";
+        }
+
+        var myNav = document.getElementsByClassName("navigation")[0];
+        window.onscroll = function () {
+            "use strict";
+            if (
+                document.body.scrollTop >= 50 ||
+                document.documentElement.scrollTop >= 50
+            ) {
+                myNav.classList.add("nav-colored");
+                myNav.classList.remove("bg-transparent");
+            } else {
+                myNav.classList.add("bg-transparent");
+                myNav.classList.remove("nav-colored");
+            }
+        };
+
+
+    </script>
+
+    <script>
+        const track = document.querySelector('.horizontal');
+        const slides = Array.from(track.children);
+        const nav = document.querySelector('.creation_cats');
+        const navDots = Array.from(nav.children);
+
+        const slideSize = slides[0].getBoundingClientRect();
+        const slideHeight = slideSize.height;
+
+        // slides[0].style.top=0;
+        // slides[1].style.top=(slideHeight + 20) +'px';
+        // slides[2].style.top = (slideHeight + 20)*2 + 'px';
+
+        const setSlidePosition = (slide, index) => {
+            slide.style.top = (slideHeight + 20) * index + 'px';
+        }
+
+        slides.forEach(setSlidePosition);
+
+        const updateDots = (currentDot, targetDot) => {
+            currentDot.classList.remove('current_slide');
+            targetDot.classList.add('current_slide');
+        }
+
+        const moveToSlide = (track, currentSlide, targetSlide) => {
+            track.style.transform = 'translateY(-' + targetSlide.style.top + ')';
+            currentSlide.classList.remove('current_slide');
+            targetSlide.classList.add('current_slide');
+        }
+
+        nav.addEventListener('click', e => {
+            const targetDot = e.target.closest('li');
+            const currentSlide = track.querySelector('.current_slide');
+            const currentDot = nav.querySelector('.current_slide');
+            console.log(currentDot);
+            const targetIndex = navDots.findIndex(dot => dot === targetDot);
+            const targetSlide = slides[targetIndex];
+            moveToSlide(track, currentSlide, targetSlide);
+            updateDots(currentDot, targetDot);
+        })
+
+        setInterval(function () {
+            firstSlide = slides[0];
+            firstDot = navDots[0];
+            currentautoSlide = track.querySelector('.current_slide');
+            currentautoDot = nav.querySelector('.current_slide');
+            if (currentautoSlide.nextElementSibling === null) {
+                currentautoSlide.classList.remove('current_slide');
+                firstSlide.classList.add('current_slide');
+                currentautoDot.classList.remove('current_slide');
+                firstDot.classList.add('current_slide');
+                moveToSlide(track, currentautoSlide, firstSlide);
+                updateDots(currentautoDot, firstDot);
+                return
+            }
+            moveToSlide(track, currentautoSlide, currentautoSlide.nextElementSibling);
+            updateDots(currentautoDot, currentautoDot.nextElementSibling);
+        }, 5000);
+
+
+
+
+
+    </script>
+</body>
+</html>
