@@ -136,6 +136,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -146,8 +147,12 @@ html {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
+    font-size: .85rem;
 }
 
+.contact_btn{
+    border: 3px solid #00D6FC;
+}
 
 .navigation>.nav_links>.nav_linkh {
     padding: .5rem 1rem;
@@ -157,8 +162,6 @@ html {
 
 
 @media (max-width:618px) {
-
-
 
     .navigation>.nav_links>.nav_linkh {
         display: inline-block;

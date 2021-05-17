@@ -1,0 +1,140 @@
+.services_center_container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.services_title {
+    text-align: left;
+    color: #093d57;
+    width: 50%;
+    font-size: 2.1rem;
+}
+
+.services_img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width:950px) {
+    .services_center_container {
+        flex-direction: column;
+    }
+
+
+    .services_title {
+        width: 100%;
+        margin-top: 120px;
+        margin-bottom: 5rem;
+        font-size: 1.8rem;
+
+    }
+
+    .services_img {
+        width: 100%;
+        margin-bottom: 2rem;
+
+    }
+}
+
+
+.services_main {
+    padding: 4rem;
+}
+
+.services_main>.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.services_main>.service_one {
+
+    align-items: flex-end;
+}
+
+
+.services_main>.service>.service_col {
+    width: 48%;
+    position: relative;
+    top: -100px;
+}
+
+.services_main>.service>.service_col>.service_title {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+
+.services_main>.service>.service_col>.service_desc {
+    margin-bottom: 1.5rem;
+    font-size: .9rem;
+    color: rgba(0, 0, 0, .4);
+    font-weight: 600;
+}
+
+
+.services_main>.service>.service_col>.service_prop_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.services_main>.service>.service_col>.service_prop_row>.service_prop_col {
+    width: 45%;
+}
+
+.services_main>.service>.service_col>.service_prop_row>.service_prop_col>.service_property {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    color: rgba(0, 0, 0, .4);
+    font-weight: 600;
+}
+
+
+
+.services_main>.service>.service_col>.service_prop_row>.service_prop_col>.service_property>.dash {
+    margin-right: .25rem;
+}
+
+.services_main>.service>.service_banner>img {
+    width: 100%;
+}
+
+.view_all_projects {
+    font-size: .8rem;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    padding: .5rem 0;
+    cursor: pointer;
+}
+
+.view_all_projects::after {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #093d57;
+    border-radius: 50px;
+    transition: width .2s ease-in-out;
+}
+
+.view_all_projects:hover::after {
+    width: 100%;
+}
