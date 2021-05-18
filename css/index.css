@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Gilroy", sans-serif;
+    font-family: "Trenda", sans-serif;
+}
+
+@font-face {
+    font-family: 'Trenda';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Trenda'), url('https://fonts.cdnfonts.com/s/28733/Latinotype  Trenda Regular.woff') format('woff');
 }
 
 a {
@@ -150,7 +157,7 @@ html {
     font-size: .85rem;
 }
 
-.contact_btn{
+.contact_btn {
     border: 3px solid #00D6FC;
 }
 
