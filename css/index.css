@@ -161,7 +161,7 @@ html {
 }
 
 
-@media (max-width:618px) {
+@media (max-width:650px) {
 
     .navigation>.nav_links>.nav_linkh {
         display: inline-block;

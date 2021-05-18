@@ -19,7 +19,7 @@
         <button class="close_side" onclick="hideSidebar()">&#10006</button>
         <ul class="nav_links">
             <a class="nav_linksb" href="#serviceid" onclick="hideSidebar()">WORK</a>
-            <a class="nav_linksb" href="services.html" onclick="hideSidebar()">SERVICES</a>
+            <a class="nav_linksb cut_white" href="services.html" onclick="hideSidebar()">SERVICES</a>
             <a class="nav_linksb" href="#caseid" onclick="hideSidebar()">ABOUT</a>
             <a class="nav_linksb" href="#contactid" onclick="hideSidebar()">CONTACT</a>
         </ul>
@@ -27,15 +27,22 @@
     <section class="main" style="background-color: #a9c7d9;">
         <div class="navigation bg-transparent">
             <div class="logo">
-                <img src="/images/logo.png" alt="" class="logo_img">
+               <a href="index.html"><img src="/images/logo.png" alt="" class="logo_img"></a> 
 
             </div>
             <ul class="nav_links">
-                <a class="nav_link" href="#serviceid">WORK</a>
-                <a class="nav_link" href="services.html">SERVICES</a>
-                <a class="nav_link" href="#caseid">ABOUT</a>
-                <a class="nav_link contact_btn" href="#contactid">CONTACT</a>
-                <a class="nav_linkh sidebar_switch" id="switch" onclick="showSidebar()"><i class="fa fa-bars"></i></a>
+                <a class="nav_link service_nav_color" href="#serviceid">WORK</a>
+                <a class="nav_link service_nav_color cut_black" href="services.html">SERVICES</a>
+                <a class="nav_link service_nav_color" href="#caseid">ABOUT</a>
+                <a class="nav_link service_nav_color contact_btn_services" href="#contactid">CONTACT <svg style="margin-left: .5rem;" xmlns="http://www.w3.org/2000/svg" width="25" height="8" viewBox="0 0 25 8">
+                    <g id="left-arrow" transform="translate(-20)">
+                        <path id="Path"
+                            d="M-47.38,3.355h22.256L-27.3,1.1a.664.664,0,0,1,0-.912.6.6,0,0,1,.877,0l3.242,3.355h0a.664.664,0,0,1,0,.913h0l-3.242,3.355a.6.6,0,0,1-.877,0,.664.664,0,0,1,0-.912l2.176-2.252H-47.38A.633.633,0,0,1-48,4,.633.633,0,0,1-47.38,3.355Z"
+                            transform="translate(68 0)" fill="#093d57" />
+                    </g>
+                </svg>
+</a>
+                <a class="nav_linkh service_nav_color sidebar_switch" id="switch" onclick="showSidebar()"><i class="fa fa-bars"></i></a>
             </ul>
         </div>
         <div class="services_center_container">
@@ -86,26 +93,279 @@
                 <img src="/images/services/services_iot.png" alt="">
             </div>
         </div>
+        <div class="service service_two">
+            <div class="service_col">
+                <h3 class="service_title">Immersive Technology</h3>
+                <p class="service_desc">Enterprise applications for immersive technologies are growing rapidly and on the cusp of mass adoption.</p>
+                <div class="service_prop_row">
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Virtual Reality (VR)</span></div>
+                    </div>
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Augmented Reality (AR)</span></div>
+                    </div>
+                </div>
+                <div class="service_prop_row">
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Mixed Reality (MR)</span></div>
+                    </div>
+                    <div class="service_prop_col">
+                        <div class="service_property"></div>
+                    </div>
+                </div>
+        
+                <a class="view_all_projects">VIEW ALL PROJECTS</a>
+            </div>
+            <div class="service_banner service_col">
+                <img src="/images/services/services_iot.png" alt="">
+            </div>
+        </div>
+        <div class="service service_one service_three">
+            <div class="service_col">
+                <h3 class="service_title">Artificial Intelligence/Machine Learning</h3>
+                <p class="service_desc">Regardless of the innovative technology that has emerged over the past decade, your audience
+                    still lives predominantly
+                    in the digital world.</p>
+                <div class="service_prop_row">
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Research & Strategy</span>
+                        </div>
+                    </div>
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Native Apps</span></div>
+                    </div>
+                </div>
+                <div class="service_prop_row">
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Progressive Web Apps</span>
+                        </div>
+                    </div>
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Hybrid Apps</span></div>
+                    </div>
+                </div>
+                <div class="service_prop_row">
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Deployment</span></div>
+                    </div>
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">SEO & Google ADS
+                                Campaigns</span></div>
+                    </div>
+                </div>
+            
+                <a class="view_all_projects">VIEW ALL PROJECTS</a>
+            </div>
+            <div class="service_banner service_col">
+                <img src="/images/services/services_iot.png" alt="">
+            </div>
+        </div>
+        <div class="service service_two service_four">
+            <div class="service_col">
+                <h3 class="service_title">UX/UI</h3>
+                <p class="service_desc">A UX designer is responsible for applying interactive and visual design, principles on websites and web applications for
+                a positive and cohesive user experience.</p>
+                <div class="service_prop_row">
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Design System Development</span></div>
+                    </div>
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Asset Management, Production and Optimization</span></div>
+                    </div>
+                </div>
+                <div class="service_prop_row">
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Software Development</span>
+                        </div>
+                    </div>
+                    <div class="service_prop_col">
+                    <div class="service_property"><span class="dash">- </span> <span class="prop">In-Vehicle Software-to-Hardware</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="service_prop_row">
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Industry & Platform Leaders</span>
+                        </div>
+                    </div>
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">SEO & Google ADS Campaigns</span>
+                        </div>
+                    </div>
+                </div>
+        
+                <a class="view_all_projects">VIEW ALL PROJECTS</a>
+            </div>
+            <div class="service_banner service_col">
+                <img src="/images/services/services_iot.png" alt="">
+            </div>
+        </div>
+        <div class="service service_one service_five">
+            <div class="service_col">
+                <h3 class="service_title">Core Digital - Mobile & Web</h3>
+                <p class="service_desc">Regardless of the innovative technology that has emerged over the past decade, your audience still lives predominantly
+                in the digital world.</p>
+                <div class="service_prop_row">
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Research & Strategy</span></div>
+                    </div>
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Native Apps</span></div>
+                    </div>
+                </div>
+                <div class="service_prop_row">
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Progressive Web Apps</span></div>
+                    </div>
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Hybrid Apps</span></div>
+                    </div>
+                </div>
+                <div class="service_prop_row">
+                    <div class="service_prop_col">
+                        <div class="service_property"><span class="dash">- </span> <span class="prop">Deployment</span></div>
+                    </div>
+                    <div class="service_prop_col">
+                                                <div class="service_property"><span class="dash">- </span> <span class="prop">SEO & Google ADS Campaigns</span></div>
+                    </div>
+                </div>
+        
+                <a class="view_all_projects">VIEW ALL PROJECTS</a>
+            </div>
+            <div class="service_banner service_col">
+                <img src="/images/services/services_iot.png" alt="">
+            </div>
+        </div>
     </section>
+    <section class="our_expertise">
+        <h3 class="expertise_header">OUR EXPERTISE</h3>
+        <p class="expertise_desc">While Feqma is Industry agnostic, we have extensive experience in these core areas.</p>
+        <div class="expertise_props_row">
+            <div class="service_prop_row">
+                <div class="service_prop_col">
+                    <div class="service_property"><span class="dash">- </span> <span class="prop">Automotive & Mobility</span></div>
+                </div>
+                <div class="service_prop_col">
+                    <div class="service_property"><span class="dash">- </span> <span class="prop">Energy & Utility</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service_prop_row">
+                <div class="service_prop_col">
+                    <div class="service_property"><span class="dash">- </span> <span class="prop">Healthcare & Life Sciences</span></div>
+                </div>
+                <div class="service_prop_col">
+                    <div class="service_property"><span class="dash">- </span> <span class="prop">Real Estate - Realty</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="expertise_props_row">
+            <div class="service_prop_row">
+                <div class="service_prop_col">
+                    <div class="service_property"><span class="dash">- </span> <span class="prop">Connected Home & City</span></div>
+                </div>
+                <div class="service_prop_col">
+                    <div class="service_property"><span class="dash">- </span> <span class="prop">Entertainment & Brand</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service_prop_row">
+                <div class="service_prop_col">
+                    <div class="service_property"><span class="dash">- </span> <span class="prop">Technology</span></div>
+                </div>
+                <div class="service_prop_col">
+                    <div class="service_property"><span class="dash">- </span> <span class="prop">Financial Services</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="two_props">
+        <div class="prop_one">
+            <img src="/images/servicessvg/innovation_consultancy.svg" alt="">
+            <h3 class="prop_title">Innovation Consultancy</h3>
+            <p class="prop_tagline">Empower your team</p>
+            <p class="prop_desc">What does the future look like for your organization? We’ll help you identify, define, and craft a digital strategy for
+            your most critical initiatives, projects, and programs.</p>
+        </div>
+        <div class="prop_one">
+            <img src="/images/servicessvg/digital_product_dev.svg" alt="">
+            <h3 class="prop_title">Digital Product Development</h3>
+            <p class="prop_tagline">Execute a solution</p>
+            <p class="prop_desc">Technology disruption is happening faster than ever, and the rates of innovation and adoption aren’t slowing down
+            anytime soon. We’ll execute the right strategy and implement digital experiences to meet the demands of your evolving
+            business and customer needs.</p>
+        </div>
+    </section>
+    <section class="collaborate">
+        <p class="tagline">We collaborate with ambitious brands & people.</p>
+        <h3 class="tag_head">Let's create some frequency --</h3>
+    </section>
+    
+    <section class="clients">
+        <h3 class="client_header">
+            We help close the Innovation <br>Execution Gap
+        </h3>
+        <div class="client_row">
+            <div class="client"><img src="/images/clients/client-logo1.png" alt="" class="client_img"></div>
+            <div class="client"><img src="/images/clients/client-logo2.png" alt="" class="client_img"></div>
+            <div class="client"><img src="/images/clients/client-logo3.png" alt="" class="client_img"></div>
+            <div class="client"><img src="/images/clients/client-logo4.png" alt="" class="client_img"></div>
+            <div class="client"><img src="/images/clients/client-logo5.png" alt="" class="client_img"></div>
+            <div class="client"><img src="/images/clients/client-logo6.png" alt="" class="client_img"></div>
+    
+    
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="rights_reserved">
+            <p class="copyright">&copy;2021 FeqMA, Pvt Ltd.All Rights Reserved.</p>
+        </div>
+        <div class="logo">
+            <img src="/images/logo.png" alt="" class="logo_img">
+        </div>
+    
+        <div class="social"></div>
+    
+    </section>
+
+
+    <script>
+        // var sidebarSwitch = document.getElementById("switch");
+        var sidebar = document.getElementsByClassName("sidebar")[0];
+        var overlay = document.getElementById("overlay_black");
+
+        function showSidebar() {
+            sidebar.style.right = "0";
+            overlay.style.opacity = "1";
+            overlay.style.pointerEvents = "all";
+        }
+
+        function hideSidebar() {
+            sidebar.style.right = "-100%";
+            overlay.style.opacity = "0";
+            overlay.style.pointerEvents = "none";
+        }
+
+        var myNav = document.getElementsByClassName("navigation")[0];
+        window.onscroll = function () {
+            "use strict";
+            if (
+                document.body.scrollTop >= 50 ||
+                document.documentElement.scrollTop >= 50
+            ) {
+                myNav.classList.add("nav-colored_services");
+                myNav.classList.remove("bg-transparent");
+            } else {
+                myNav.classList.add("bg-transparent");
+                myNav.classList.remove("nav-colored_services");
+            }
+        };
+
+
+    </script>
+
     </body>
     </html>
-
-<!-- 
-    <div class="service_prop_row">
-        <div class="service_prop_col">
-            <p class="service_property">
-            <div class="dash">-</div>
-            <div class="prop">Multiplying the digital value</div>
-            </p>
-        </div>
-        <div class="service_prop_col">
-            <p class="service_property">- Integrating Voice User Interface(VUI)</p>
-        </div>
-    </div>
-    <div class="service_prop_row">
-        <div class="service_prop_col">
-            <p class="service_property">- Service Framework Environment</p>
-        </div>
-        <div class="service_prop_col">
-        </div>
-    </div> -->

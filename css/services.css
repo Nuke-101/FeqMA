@@ -1,3 +1,50 @@
+.cut_white {
+    position: relative;
+}
+
+.cut_white::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+
+.cut_black {
+    position: relative;
+}
+
+.cut_black::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #093d57;
+    border-radius: 50px;
+}
+
+.service_nav_color {
+    color: #093d57 !important;
+    font-weight: 600;
+}
+
+.nav-colored_services {
+    background-color: #a9c7d9;
+    transition: all 0.5s ease-in-out;
+    color: #fff;
+}
+
+.contact_btn_services {
+    border: 3px solid #093d57;
+}
+
+
 .services_center_container {
     min-height: 100vh;
     width: 100%;
@@ -6,6 +53,14 @@
     padding: 4rem;
     align-items: center;
     justify-content: space-between;
+
+}
+
+@media (max-width:450px) {
+
+    .services_center_container {
+        padding: 4rem 2rem;
+    }
 
 }
 
@@ -50,6 +105,18 @@
 
 .services_main {
     padding: 4rem;
+    padding-bottom: 0;
+}
+
+
+@media (max-width:450px) {
+
+    .services_main {
+        padding: 4rem 2rem;
+        padding-bottom: 0;
+
+    }
+
 }
 
 .services_main>.service {
@@ -63,7 +130,16 @@
 .services_main>.service_one {
 
     align-items: flex-end;
+    margin-bottom: 5rem;
 }
+
+
+.services_main>.service_two {
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
 
 
 .services_main>.service>.service_col {
@@ -137,4 +213,178 @@
 
 .view_all_projects:hover::after {
     width: 100%;
+}
+
+
+@media (max-width:840px) {
+
+    .services_main>.service {
+        flex-direction: column-reverse;
+    }
+
+
+    .services_main>.service>.service_col {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+}
+
+
+/******** EXPERTISE SECTION *********/
+
+.our_expertise {
+    padding: 4rem;
+    background-color: rgba(169, 199, 217, 0.23);
+}
+
+
+@media (max-width:450px) {
+
+    .our_expertise {
+        padding: 4rem 2rem;
+    }
+
+}
+
+.expertise_header {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.expertise_desc {
+    font-size: .85rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    width: 100%;
+    max-width: 450px;
+    color: rgba(0, 0, 0, .4);
+    line-height: 1.5;
+}
+
+.expertise_props_row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+
+.expertise_props_row>.service_prop_row {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.expertise_props_row>.service_prop_row>.service_prop_col {
+    width: 45%;
+}
+
+.expertise_props_row>.service_prop_row>.service_prop_col>.service_property {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    color: rgba(0, 0, 0, .4);
+    font-weight: 600;
+}
+
+
+.expertise_props_row>.service_prop_row>.service_prop_col>.service_property>.dash {
+    margin-right: .25rem;
+}
+
+
+@media (max-width:650px) {
+
+    .expertise_props_row {
+        flex-direction: column;
+        margin-bottom: 0rem;
+    }
+
+
+    .expertise_props_row>.service_prop_row {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+
+/*****************TWO PROPERTIES**************/
+
+
+.two_props {
+    width: 100%;
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media (max-width:450px) {
+
+    .two_props {
+        padding: 4rem 2rem;
+    }
+
+}
+
+
+.prop_one {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+}
+
+.prop_one>img {
+    width: 80%;
+    height: 200px;
+    margin-bottom: 2rem;
+}
+
+.prop_one>.prop_title {
+    margin-bottom: .2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.prop_one>.prop_tagline {
+    font-size: .7rem;
+    font-weight: 600;
+    color: #626262;
+    margin-bottom: 1rem;
+}
+
+
+.prop_one>.prop_desc {
+    font-size: .85rem;
+    font-weight: 500;
+    color: #626262;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+@media (max-width:700px) {
+
+    .two_props {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .prop_one {
+        width: 100%;
+        margin-bottom: 3rem;
+
+    }
+
 }
