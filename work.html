@@ -13,27 +13,27 @@
 </head>
 
 <body>
-  <div class="black_overlay" onclick="hideSidebar()" id="overlay_black"></div>
-  <div class="sidebar">
-    <button class="close_side" onclick="hideSidebar()">&#10006</button>
-    <ul class="nav_links">
-      <a class="nav_linksb cut_white" href="#" onclick="hideSidebar()">WORK</a>
-      <a class="nav_linksb" href="services.html" onclick="hideSidebar()">SERVICES</a>
-      <a class="nav_linksb" href="about.html" onclick="hideSidebar()">ABOUT</a>
-      <a class="nav_linksb" href="contact.html" onclick="hideSidebar()">CONTACT</a>
-    </ul>
-  </div>
-  <section class="main">
-    <div class="navigation bg-transparent">
-      <div class="logo">
-        <a href="index.html"><img src="/images/logo.png" alt="" class="logo_img"></a>
-  
-      </div>
-      <ul class="nav_links">
-        <a class="nav_link about_nav_color cut_black" href="#">WORK</a>
-        <a class="nav_link about_nav_color" href="services.html">SERVICES</a>
-        <a class="nav_link about_nav_color" href="about.html">ABOUT</a>
-        <a class="nav_link about_nav_color contact_btn" href="contact.html">CONTACT <svg style="margin-left: .5rem;"
+    <div class="black_overlay" onclick="hideSidebar()" id="overlay_black"></div>
+    <div class="sidebar">
+        <button class="close_side" onclick="hideSidebar()">&#10006</button>
+        <ul class="nav_links">
+            <a class="nav_linksb cut_white" href="#" onclick="hideSidebar()">WORK</a>
+            <a class="nav_linksb" href="services.html" onclick="hideSidebar()">SERVICES</a>
+            <a class="nav_linksb" href="about.html" onclick="hideSidebar()">ABOUT</a>
+            <a class="nav_linksb" href="contact.html" onclick="hideSidebar()">CONTACT</a>
+        </ul>
+    </div>
+    <section class="main">
+        <div class="navigation bg-transparent">
+            <div class="logo">
+                <a href="index.html"><img src="/images/logo.png" alt="" class="logo_img"></a>
+
+            </div>
+            <ul class="nav_links">
+                <a class="nav_link about_nav_color cut_black" href="#">WORK</a>
+                <a class="nav_link about_nav_color" href="services.html">SERVICES</a>
+                <a class="nav_link about_nav_color" href="about.html">ABOUT</a>
+                <a class="nav_link about_nav_color contact_btn" href="contact.html">CONTACT <svg style="margin-left: .5rem;"
             xmlns="http://www.w3.org/2000/svg" width="25" height="8" viewBox="0 0 25 8">
             <g id="left-arrow" transform="translate(-20)">
               <path id="Path"
@@ -41,11 +41,11 @@
                 transform="translate(68 0)" fill="#00D6FC" />
             </g>
           </svg></a>
-        <a class="nav_linkh about_nav_color sidebar_switch" id="switch" onclick="showSidebar()"><i
+                <a class="nav_linkh about_nav_color sidebar_switch" id="switch" onclick="showSidebar()"><i
             class="fa fa-bars"></i></a>
-      </ul>
-    </div>
-  </section>
+            </ul>
+        </div>
+    </section>
     <div class="work_color">
         <p class="work_header">
             We break the boundaries<br /> to create the future.
@@ -82,7 +82,7 @@
         </div>
     </div>
     <div class="blue_text">
-        <p class="blue_1">We collaborate with ambitious brands <br> brands & people.</p>
+        <p class="blue_1">We collaborate with ambitious brands & people.</p>
         <p class="blue_2">
             Lets create some frequency<svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 25 8">
           <g id="left-arrow" transform="translate(-20)">
@@ -97,21 +97,21 @@
         </p>
     </div>
     <section class="clients">
-      <h3 class="client_header">
-        We help close the Innovation <br>Execution Gap
-      </h3>
-      <div class="client_row">
-        <div class="client_row_mini">
-          <div class="client"><img src="/images/clients/client-logo1.png" alt="" class="client_img"></div>
-          <div class="client"><img src="/images/clients/client-logo2.png" alt="" class="client_img"></div>
-          <div class="client"><img src="/images/clients/client-logo3.png" alt="" class="client_img"></div>
+        <h3 class="client_header">
+            We help close the Innovation <br>Execution Gap
+        </h3>
+        <div class="client_row">
+            <div class="client_row_mini">
+                <div class="client"><img src="/images/clients/client-logo1.png" alt="" class="client_img"></div>
+                <div class="client"><img src="/images/clients/client-logo2.png" alt="" class="client_img"></div>
+                <div class="client"><img src="/images/clients/client-logo3.png" alt="" class="client_img"></div>
+            </div>
+            <div class="client_row_mini">
+                <div class="client"><img src="/images/clients/client-logo4.png" alt="" class="client_img"></div>
+                <div class="client"><img src="/images/clients/client-logo5.png" alt="" class="client_img"></div>
+                <div class="client"><img src="/images/clients/client-logo6.png" alt="" class="client_img"></div>
+            </div>
         </div>
-        <div class="client_row_mini">
-          <div class="client"><img src="/images/clients/client-logo4.png" alt="" class="client_img"></div>
-          <div class="client"><img src="/images/clients/client-logo5.png" alt="" class="client_img"></div>
-          <div class="client"><img src="/images/clients/client-logo6.png" alt="" class="client_img"></div>
-        </div>
-      </div>
     </section>
     <div class="footer">
         <div class="footer_1">©2021 FeqMA, Pvt Ltd. All Rights Reserved.</div>
@@ -148,38 +148,36 @@
         </div>
     </div>
     <script>
-      // var sidebarSwitch = document.getElementById("switch");
-      var sidebar = document.getElementsByClassName("sidebar")[0];
-      var overlay = document.getElementById("overlay_black");
+        // var sidebarSwitch = document.getElementById("switch");
+        var sidebar = document.getElementsByClassName("sidebar")[0];
+        var overlay = document.getElementById("overlay_black");
 
-      function showSidebar() {
-        sidebar.style.right = "0";
-        overlay.style.opacity = "1";
-        overlay.style.pointerEvents = "all";
-      }
-
-      function hideSidebar() {
-        sidebar.style.right = "-100%";
-        overlay.style.opacity = "0";
-        overlay.style.pointerEvents = "none";
-      }
-
-      var myNav = document.getElementsByClassName("navigation")[0];
-      window.onscroll = function () {
-        "use strict";
-        if (
-          document.body.scrollTop >= 50 ||
-          document.documentElement.scrollTop >= 50
-        ) {
-          myNav.classList.add("nav-colored_work");
-          myNav.classList.remove("bg-transparent");
-        } else {
-          myNav.classList.add("bg-transparent");
-          myNav.classList.remove("nav-colored_work");
+        function showSidebar() {
+            sidebar.style.right = "0";
+            overlay.style.opacity = "1";
+            overlay.style.pointerEvents = "all";
         }
-      };
 
+        function hideSidebar() {
+            sidebar.style.right = "-100%";
+            overlay.style.opacity = "0";
+            overlay.style.pointerEvents = "none";
+        }
 
+        var myNav = document.getElementsByClassName("navigation")[0];
+        window.onscroll = function() {
+            "use strict";
+            if (
+                document.body.scrollTop >= 50 ||
+                document.documentElement.scrollTop >= 50
+            ) {
+                myNav.classList.add("nav-colored_work");
+                myNav.classList.remove("bg-transparent");
+            } else {
+                myNav.classList.add("bg-transparent");
+                myNav.classList.remove("nav-colored_work");
+            }
+        };
     </script>
 </body>
 
