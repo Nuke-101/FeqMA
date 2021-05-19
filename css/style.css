@@ -200,7 +200,9 @@
 @media (max-width: 768px) {
     .footer {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        height: 100px;
+        font-size: 0.7rem;
     }
 }
 
@@ -209,17 +211,20 @@
 }
 
 .footer_3 {
-    margin-right: 12rem;
+    margin-right: 8rem;
+}
+
+.footer_3 svg {
+    height: 24x;
+    width: 24px;
+    margin: 0 0.2rem;
+    background-color: white;
 }
 
 @media (max-width: 768px) {
     .footer_3 {
-        margin-right: 0;
+        margin-right: 2rem;
     }
-}
-
-.footer_3 svg {
-    background-color: white;
 }
 
 

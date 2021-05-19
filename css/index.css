@@ -626,3 +626,8 @@ html {
 .footer>.social {
     flex: 1;
 }
+
+.social svg {
+    height: 18px;
+    width: 18px;
+}
