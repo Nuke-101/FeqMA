@@ -161,6 +161,10 @@ html {
     font-family: GT Haptik;
 }
 
+.navigation img {
+    width: 110px;
+}
+
 @media (max-width: 450px) {
     .navigation {
         padding: 1.5rem 2rem;
@@ -178,7 +182,7 @@ html {
 }
 
 .navigation>.nav_links {
-    width: 80%;
+    width: 40%;
     max-width: 650px;
     display: flex;
     flex-direction: row;
@@ -196,7 +200,7 @@ html {
 }
 
 .contact_btn {
-    border: 3px solid #00d6fc;
+    border: 3px solid #fff;
 }
 
 .navigation>.nav_links>.nav_linkh {
@@ -350,7 +354,7 @@ html {
     color: rgba(0, 0, 0, 0.3);
     font-weight: 600;
     text-align: left;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     transition: all 0.2s ease-in-out;
 }
 
@@ -630,4 +634,103 @@ html {
 .social svg {
     height: 18px;
     width: 18px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-family: trenda;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        font-size: 0.7rem;
+    }
+}
+
+.footer img {
+    height: 25px;
+}
+
+.footer_3 {
+    margin-right: 8rem;
+}
+
+.footer_3 svg {
+    height: 24x;
+    width: 24px;
+    margin: 0 0.2rem;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .footer_3 {
+        margin-right: 2rem;
+    }
+}
+
+.expertise_section {
+    background-color: rgba(169, 199, 217, 0.3);
+    font-family: GT Haptik;
+}
+
+.expertise_section h3 {
+    padding-top: 2rem;
+    margin-left: 5.2rem;
+    letter-spacing: 2px;
+}
+
+.expertise_section p {
+    font-family: trenda;
+    line-height: 2;
+    margin-left: 5.2rem;
+    margin-top: 1.5rem;
+    width: 480px;
+    opacity: 0.6;
+}
+
+.exp_8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 4rem;
+}
+
+@media (max-width: 768px) {
+    .exp_8 {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 0 0 0 1rem;
+    }
+    .expertise_section h3 {
+        margin: 0 0 0 1rem;
+    }
+    .expertise_section p {
+        margin: 1rem 0 0 1rem;
+        padding: 0;
+        width: 95%;
+    }
+}
+
+.exp_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.exp_desc {
+    margin-top: 2rem;
+    margin-right: 0rem;
+    opacity: 0.6;
+}
+
+.exp_desc sup {
+    margin-right: 0.5rem;
 }
