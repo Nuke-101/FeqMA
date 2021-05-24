@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Trenda", sans-serif;
-    transition: opacity .3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 @font-face {
@@ -73,7 +73,6 @@ html {
 }
 
 @media (max-width: 768px) {
-
     .blue_11,
     .blue_22 {
         margin-left: 0;
@@ -223,11 +222,9 @@ html {
     .navigation>.nav_links>.nav_linkh {
         display: inline-block;
     }
-
     .navigation>.nav_links>.nav_link {
         display: none;
     }
-
     .navigation>.nav_links {
         justify-content: flex-end;
     }
@@ -431,21 +428,17 @@ html {
     .creation>.creation_stat {
         flex-direction: column;
     }
-
     .creation>.creation_stat>.vertical {
         width: 100%;
         margin-bottom: 2rem;
     }
-
     .creation>.creation_stat>.horizontal_container {
         /* width: 100%; */
         display: none;
     }
-
     .creation>.creation_stat>.horizontal_container>.horizontal {
         width: 100%;
     }
-
     .creation>.creation_stat>.horizontal_container>.horizontal>.cat_info {
         left: 50%;
         transform: translateX(-50%);
@@ -517,7 +510,6 @@ html {
     .guide_row {
         flex-direction: column;
     }
-
     .guide_column {
         width: 100%;
     }
@@ -599,7 +591,6 @@ html {
     .client_row {
         flex-direction: column;
     }
-
     .client_row_mini {
         width: 100%;
         margin-bottom: 2rem;
@@ -728,11 +719,9 @@ html {
         text-align: left;
         margin: 0 0 0 1rem;
     }
-
     .expertise_section h3 {
         margin: 0 0 0 1rem;
     }
-
     .expertise_section p {
         margin: 1rem 0 0 1rem;
         padding: 0;
@@ -753,4 +742,5 @@ html {
 
 .exp_desc sup {
     margin-right: 0.5rem;
+    letter-spacing: -2px;
 }
