@@ -49,6 +49,64 @@ html {
     color: #00d6fc;
 }
 
+.ms-slider {
+    display: inline-block;
+    height: 1.5em;
+    overflow: hidden;
+    vertical-align: middle;
+    -webkit-mask-image: linear-gradient( transparent, white, white, white, transparent);
+    mask-image: linear-gradient(transparent, white, white, white, transparent);
+    mask-type: luminance;
+    mask-mode: alpha;
+}
+
+.ms-slider__words {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    -webkit-animation-name: wordSlider;
+    animation-name: wordSlider;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 17s;
+    animation-duration: 17s;
+}
+
+.ms-slider__word {
+    display: block;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+@keyframes wordSlider {
+    0%,
+    14% {
+        transform: translateY(0%);
+    }
+    20%,
+    34% {
+        transform: translateY(-16.67%);
+    }
+    40%,
+    54% {
+        transform: translateY(-33.33%);
+    }
+    60%,
+    74% {
+        transform: translateY(-49.99%);
+    }
+    80%,
+    94% {
+        transform: translateY(-66.65%);
+    }
+    100% {
+        transform: translateY(-83.33%);
+    }
+}
+
 .blue_text1 {
     background-color: #14265a;
     height: 200px;
@@ -209,7 +267,14 @@ html {
 }
 
 .contact_btn {
-    border: 3px solid #fff;
+    border: 1px solid #fff;
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    font-size: 0.85rem;
+}
+
+.contact_btn:hover {
+    border: 1px solid #00d6fc;
+    background-color: #00d6fc;
 }
 
 .navigation>.nav_links>.nav_linkh {
@@ -293,6 +358,7 @@ html {
     position: relative;
     padding: 0.5rem 0;
     cursor: pointer;
+    color: white;
 }
 
 .view_work::after {
@@ -546,7 +612,7 @@ html {
 
 .clients {
     padding: 4rem 4rem;
-    background-color: #f7f7f7;
+    background-color: #fff;
 }
 
 @media (max-width: 450px) {
@@ -566,6 +632,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: white;
 }
 
 .client_row_mini {
@@ -584,7 +651,7 @@ html {
 }
 
 .client_row_mini>.client>.client_img {
-    width: 80%;
+    width: 90%;
 }
 
 @media (max-width: 900px) {
@@ -692,14 +759,14 @@ html {
 
 .expertise_section h3 {
     padding-top: 2rem;
-    margin-left: 5.2rem;
+    margin-left: 6.2rem;
     letter-spacing: 2px;
 }
 
 .expertise_section p {
     font-family: trenda;
     line-height: 2;
-    margin-left: 5.2rem;
+    margin-left: 6.2rem;
     margin-top: 1.5rem;
     width: 480px;
     opacity: 0.6;
@@ -708,8 +775,10 @@ html {
 .exp_8 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-bottom: 4rem;
+    margin-right: 2rem;
+    gap: 70px;
 }
 
 @media (max-width: 768px) {

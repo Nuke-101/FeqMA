@@ -48,6 +48,7 @@
     justify-content: center;
     justify-content: space-evenly;
     font-family: trenda;
+    background-color: #f7f7f7;
 }
 
 .col_1,
@@ -73,6 +74,7 @@
 .col_1 h3,
 .col_2 h3 {
     margin: 2rem 0 0.5rem 0;
+    letter-spacing: 0;
 }
 
 .col_1 p,
@@ -228,7 +230,12 @@
 }
 
 .contact_btn {
-    border: 3px solid #000;
+    border: 1.15px solid #000;
+}
+
+.contact_btn:hover {
+    border: 2px solid #00d6fc;
+    background-color: #00d6fc;
 }
 
 
@@ -356,7 +363,7 @@
 
 .manifesto h3 {
     padding-top: 5rem;
-    margin-left: 3.5rem;
+    margin-left: 5.8rem;
     margin-bottom: 4rem;
 }
 
@@ -371,7 +378,7 @@
     flex-direction: row;
     justify-content: space-around;
     gap: 25px;
-    margin: 0 2.5rem;
+    margin: 0 5rem;
 }
 
 .mrow_2 {
@@ -654,8 +661,10 @@ section p {
 .exp_8 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-bottom: 4rem;
+    margin-right: 2rem;
+    gap: 70px;
 }
 
 @media (max-width: 768px) {

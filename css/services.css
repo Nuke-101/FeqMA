@@ -85,7 +85,12 @@
 }
 
 .contact_btn_services {
-    border: 3px solid #093d57;
+    border: 1.15px solid #093d57;
+}
+
+.contact_btn_services:hover {
+    border: 1px solid #00d6fc;
+    background-color: #00d6fc;
 }
 
 .services_center_container {
@@ -117,7 +122,6 @@
     justify-content: center;
     align-items: center;
 }
-
 
 @media (max-width: 950px) {
     .services_center_container {
@@ -157,14 +161,16 @@
 .services_main>.service_one {
     align-items: flex-end;
     margin-bottom: 5rem;
-    margin-left: 7.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 .services_main>.service_two {
     flex-direction: row-reverse;
     align-items: center;
     margin-bottom: 5rem;
-    margin-left: 7.5%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .services_main>.service>#s_c {
@@ -228,7 +234,7 @@
 
 .services_main>.service>.service_banner>img {
     width: 100%;
-    min-height: 600px;
+    height: 580px;
     position: relative;
 }
 
@@ -475,4 +481,9 @@
 
 .contact_btn {
     border: 3px solid #000;
+}
+
+.contact_btn:hover {
+    border: 2px solid #00d6fc;
+    background-color: #00d6fc;
 }
