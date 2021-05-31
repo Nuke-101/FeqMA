@@ -260,7 +260,7 @@
             </div>
         </div>
     </section>
-    <div class="footer opacity_0">
+    <div class="footer">
         <div class="footer_1"> ©2021 Feqma Technologies Private Limited. All Rights Reserved.</div>
 
     </div>
@@ -360,8 +360,8 @@
                 clientSection.classList.remove("opacity_1");
             }
             if (
-                document.body.scrollTop >= contentSection.offsetHeight + manifestoSectionr1.offsetHeight + manifestoSectionr2.offsetHeight + manifestoSectionr3.offsetHeight ||
-                document.documentElement.scrollTop >= contentSection.offsetHeight + manifestoSectionr1.offsetHeight + manifestoSectionr2.offsetHeight + manifestoSectionr3.offsetHeight
+                document.body.scrollTop >= contentSection.offsetHeight + manifestoSectionr1.offsetHeight + manifestoSectionr2.offsetHeight + manifestoSectionr3.offsetHeight / 1.25 ||
+                document.documentElement.scrollTop >= contentSection.offsetHeight + manifestoSectionr1.offsetHeight + manifestoSectionr2.offsetHeight + manifestoSectionr3.offsetHeight / 1.25
             ) {
                 footerSection.classList.add("opacity_1");
                 footerSection.classList.remove("opacity_0");
