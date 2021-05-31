@@ -272,6 +272,10 @@ html {
     font-size: 0.85rem;
 }
 
+.na {
+    margin-right: 1.5rem;
+}
+
 .contact_btn:hover {
     border: 1px solid #00d6fc;
     background-color: #00d6fc;
@@ -345,7 +349,8 @@ html {
 
 .header_text {
     font-size: 2.2rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0rem;
+    line-height: 1.5;
 }
 
 .header_text>.multi-disciplinary {

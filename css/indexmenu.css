@@ -1,0 +1,23 @@
+.navigation>.nav_linkss {
+    width: 40%;
+    max-width: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation>.nav_links>.nav_link {
+    padding: 0.5rem 2.2rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.contact_btn {
+    border: 1px solid #fff;
+    padding: 0.6rem 0.5rem 0.6rem 0.5rem;
+    font-size: 0.85rem;
+}

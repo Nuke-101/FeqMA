@@ -1,0 +1,17 @@
+.navigation>.nav_links {
+    width: 40%;
+    max-width: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation>.nav_links>.nav_link {
+    padding: 0.5rem 2.5rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
