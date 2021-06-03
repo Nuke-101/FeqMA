@@ -786,23 +786,6 @@ html {
     gap: 70px;
 }
 
-@media (max-width: 768px) {
-    .exp_8 {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        margin: 0 0 0 1rem;
-    }
-    .expertise_section h3 {
-        margin: 0 0 0 1rem;
-    }
-    .expertise_section p {
-        margin: 1rem 0 0 1rem;
-        padding: 0;
-        width: 95%;
-    }
-}
-
 .exp_1 {
     display: flex;
     flex-direction: column;
@@ -817,4 +800,41 @@ html {
 .exp_desc sup {
     margin-right: 0.5rem;
     letter-spacing: -2px;
+}
+
+#exp_1p {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .exp_8 {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 2rem 0 0 0rem;
+    }
+    .expertise_section h3 {
+        margin: 0 0 0 1rem;
+    }
+    .expertise_section p {
+        margin: 1rem 0 0 1rem;
+        padding: 0;
+        width: 95%;
+    }
+    .exp_1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 1rem;
+    }
+    .exp_desc {
+        width: 50%;
+        margin-top: 0;
+    }
+    #exp_1p {
+        display: block;
+        width: 50%;
+        text-align: center;
+    }
 }

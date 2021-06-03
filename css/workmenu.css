@@ -15,3 +15,15 @@
     cursor: pointer;
     font-size: 0.85rem;
 }
+
+@media (max-width: 650px) {
+    .navigation>.nav_links>.nav_linkh {
+        display: inline-block;
+    }
+    .navigation>.nav_links>.nav_link {
+        display: none;
+    }
+    .navigation>.nav_links {
+        justify-content: flex-end;
+    }
+}
